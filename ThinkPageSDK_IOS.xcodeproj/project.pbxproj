@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A512B0E218B49946000F3675 /* TPWeatherNow.m in Sources */ = {isa = PBXBuildFile; fileRef = A512B0E118B49946000F3675 /* TPWeatherNow.m */; };
+		A512B0E518B49960000F3675 /* TPWeatherFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = A512B0E418B49960000F3675 /* TPWeatherFuture.m */; };
+		A548775718AB73E900135177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548775618AB73E900135177 /* Foundation.framework */; };
+		A548776518AB73E900135177 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548776418AB73E900135177 /* XCTest.framework */; };
+		A548776618AB73E900135177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548775618AB73E900135177 /* Foundation.framework */; };
+		A548776818AB73E900135177 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548776718AB73E900135177 /* UIKit.framework */; };
+		A548776B18AB73E900135177 /* libThinkPageSDK_IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A548775318AB73E900135177 /* libThinkPageSDK_IOS.a */; };
+		A548777118AB73E900135177 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A548776F18AB73E900135177 /* InfoPlist.strings */; };
+		A548777318AB73E900135177 /* ThinkPageSDK_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A548777218AB73E900135177 /* ThinkPageSDK_IOSTests.m */; };
+		A548778E18AB744700135177 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A548777F18AB744600135177 /* NSDictionary+QueryString.m */; };
+		A548778F18AB744700135177 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A548778118AB744600135177 /* NSString+URLEncoding.m */; };
+		A548779018AB744700135177 /* TPAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = A548778318AB744600135177 /* TPAirQuality.m */; };
+		A548779118AB744700135177 /* TPCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A548778518AB744600135177 /* TPCity.m */; };
+		A548779418AB744700135177 /* TPWeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A548778B18AB744700135177 /* TPWeatherManager.m */; };
+		A548779518AB744700135177 /* TPWeatherRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A548778D18AB744700135177 /* TPWeatherRequest.m */; };
+		A5A39EF718B566F1000E955E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548775618AB73E900135177 /* Foundation.framework */; };
+		A5A39EF818B566F1000E955E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548779C18AB748000135177 /* CoreGraphics.framework */; };
+		A5A39EF918B566F1000E955E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548776718AB73E900135177 /* UIKit.framework */; };
+		A5A39EFF18B566F1000E955E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A39EFD18B566F1000E955E /* InfoPlist.strings */; };
+		A5A39F0118B566F1000E955E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A39F0018B566F1000E955E /* main.m */; };
+		A5A39F0518B566F1000E955E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A39F0418B566F1000E955E /* AppDelegate.m */; };
+		A5A39F0818B566F1000E955E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F0618B566F1000E955E /* Main_iPhone.storyboard */; };
+		A5A39F0B18B566F1000E955E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F0918B566F1000E955E /* Main_iPad.storyboard */; };
+		A5A39F0E18B566F1000E955E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A39F0D18B566F1000E955E /* ViewController.m */; };
+		A5A39F1018B566F1000E955E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F0F18B566F1000E955E /* Images.xcassets */; };
+		A5A39F1618B566F1000E955E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548776418AB73E900135177 /* XCTest.framework */; };
+		A5A39F1718B566F1000E955E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548775618AB73E900135177 /* Foundation.framework */; };
+		A5A39F1818B566F1000E955E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548776718AB73E900135177 /* UIKit.framework */; };
+		A5A39F2018B566F1000E955E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F1E18B566F1000E955E /* InfoPlist.strings */; };
+		A5A39F2218B566F1000E955E /* ThinkPageTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A39F2118B566F1000E955E /* ThinkPageTestAppTests.m */; };
+		A5A39F2F18B56834000E955E /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F2A18B56834000E955E /* cloudy.png */; };
+		A5A39F3018B56834000E955E /* PartialSunny.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F2B18B56834000E955E /* PartialSunny.png */; };
+		A5A39F3118B56834000E955E /* Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F2C18B56834000E955E /* Rain.png */; };
+		A5A39F3218B56834000E955E /* Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F2D18B56834000E955E /* Storm.png */; };
+		A5A39F3318B56834000E955E /* Sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A39F2E18B56834000E955E /* Sunny.png */; };
+		A5A39F3418B56DE3000E955E /* libThinkPageSDK_IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A548775318AB73E900135177 /* libThinkPageSDK_IOS.a */; };
+		A5B5EF9C18BC52F0002514E7 /* TPWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5EF9B18BC52F0002514E7 /* TPWeather.m */; };
+		A5B5EF9E18BC56EA002514E7 /* TPWeatherSuggestions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5EF9D18BC56EA002514E7 /* TPWeatherSuggestions.m */; };
+		A5FED09D18B879FF00E5AD57 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FED09C18B879FF00E5AD57 /* NSDate+InternetDateTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A548776918AB73E900135177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A548774B18AB73E900135177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A548775218AB73E900135177;
+			remoteInfo = ThinkPageSDK_IOS;
+		};
+		A5A39F1918B566F1000E955E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A548774B18AB73E900135177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A39EF518B566F1000E955E;
+			remoteInfo = ThinkPageTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A548775118AB73E900135177 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A512B0E018B49946000F3675 /* TPWeatherNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPWeatherNow.h; path = src/TPWeatherNow.h; sourceTree = "<group>"; };
+		A512B0E118B49946000F3675 /* TPWeatherNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPWeatherNow.m; path = src/TPWeatherNow.m; sourceTree = "<group>"; };
+		A512B0E318B49960000F3675 /* TPWeatherFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPWeatherFuture.h; path = src/TPWeatherFuture.h; sourceTree = "<group>"; };
+		A512B0E418B49960000F3675 /* TPWeatherFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPWeatherFuture.m; path = src/TPWeatherFuture.m; sourceTree = "<group>"; };
+		A548775318AB73E900135177 /* libThinkPageSDK_IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThinkPageSDK_IOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A548775618AB73E900135177 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A548775A18AB73E900135177 /* ThinkPageSDK_IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkPageSDK_IOS-Prefix.pch"; sourceTree = "<group>"; };
+		A548776318AB73E900135177 /* ThinkPageSDK_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkPageSDK_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A548776418AB73E900135177 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A548776718AB73E900135177 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A548776E18AB73E900135177 /* ThinkPageSDK_IOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThinkPageSDK_IOSTests-Info.plist"; sourceTree = "<group>"; };
+		A548777018AB73E900135177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A548777218AB73E900135177 /* ThinkPageSDK_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinkPageSDK_IOSTests.m; sourceTree = "<group>"; };
+		A548777E18AB744600135177 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QueryString.h"; path = "src/NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		A548777F18AB744600135177 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+QueryString.m"; path = "src/NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		A548778018AB744600135177 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "src/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		A548778118AB744600135177 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "src/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		A548778218AB744600135177 /* TPAirQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPAirQuality.h; path = src/TPAirQuality.h; sourceTree = "<group>"; };
+		A548778318AB744600135177 /* TPAirQuality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPAirQuality.m; path = src/TPAirQuality.m; sourceTree = "<group>"; };
+		A548778418AB744600135177 /* TPCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCity.h; path = src/TPCity.h; sourceTree = "<group>"; };
+		A548778518AB744600135177 /* TPCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPCity.m; path = src/TPCity.m; sourceTree = "<group>"; };
+		A548778A18AB744700135177 /* TPWeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPWeatherManager.h; path = src/TPWeatherManager.h; sourceTree = "<group>"; };
+		A548778B18AB744700135177 /* TPWeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPWeatherManager.m; path = src/TPWeatherManager.m; sourceTree = "<group>"; };
+		A548778C18AB744700135177 /* TPWeatherRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPWeatherRequest.h; path = src/TPWeatherRequest.h; sourceTree = "<group>"; };
+		A548778D18AB744700135177 /* TPWeatherRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPWeatherRequest.m; path = src/TPWeatherRequest.m; sourceTree = "<group>"; };
+		A548779C18AB748000135177 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A57B1BB118B59CDD002D69CB /* TPSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPSDK.h; path = src/TPSDK.h; sourceTree = "<group>"; };
+		A5A39EF618B566F1000E955E /* ThinkPageTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkPageTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A39EFC18B566F1000E955E /* ThinkPageTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThinkPageTestApp-Info.plist"; sourceTree = "<group>"; };
+		A5A39EFE18B566F1000E955E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A39F0018B566F1000E955E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A39F0218B566F1000E955E /* ThinkPageTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkPageTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		A5A39F0318B566F1000E955E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A39F0418B566F1000E955E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A39F0718B566F1000E955E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A5A39F0A18B566F1000E955E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A5A39F0C18B566F1000E955E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5A39F0D18B566F1000E955E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5A39F0F18B566F1000E955E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5A39F1518B566F1000E955E /* ThinkPageTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkPageTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A39F1D18B566F1000E955E /* ThinkPageTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThinkPageTestAppTests-Info.plist"; sourceTree = "<group>"; };
+		A5A39F1F18B566F1000E955E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A39F2118B566F1000E955E /* ThinkPageTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinkPageTestAppTests.m; sourceTree = "<group>"; };
+		A5A39F2A18B56834000E955E /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy.png; path = en.lproj/img/cloudy.png; sourceTree = "<group>"; };
+		A5A39F2B18B56834000E955E /* PartialSunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PartialSunny.png; path = en.lproj/img/PartialSunny.png; sourceTree = "<group>"; };
+		A5A39F2C18B56834000E955E /* Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rain.png; path = en.lproj/img/Rain.png; sourceTree = "<group>"; };
+		A5A39F2D18B56834000E955E /* Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Storm.png; path = en.lproj/img/Storm.png; sourceTree = "<group>"; };
+		A5A39F2E18B56834000E955E /* Sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sunny.png; path = en.lproj/img/Sunny.png; sourceTree = "<group>"; };
+		A5B5EF9A18BC52F0002514E7 /* TPWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPWeather.h; path = src/TPWeather.h; sourceTree = "<group>"; };
+		A5B5EF9B18BC52F0002514E7 /* TPWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPWeather.m; path = src/TPWeather.m; sourceTree = "<group>"; };
+		A5B5EF9D18BC56EA002514E7 /* TPWeatherSuggestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPWeatherSuggestions.m; path = src/TPWeatherSuggestions.m; sourceTree = "<group>"; };
+		A5B5EF9F18BC56EF002514E7 /* TPWeatherSuggestions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPWeatherSuggestions.h; path = src/TPWeatherSuggestions.h; sourceTree = "<group>"; };
+		A5EC709818ACA8ED002DA09C /* TPWeatherManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPWeatherManagerDelegate.h; path = src/TPWeatherManagerDelegate.h; sourceTree = "<group>"; };
+		A5FED09B18B879FF00E5AD57 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "src/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		A5FED09C18B879FF00E5AD57 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "src/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A548775018AB73E900135177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548775718AB73E900135177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A548776018AB73E900135177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548776518AB73E900135177 /* XCTest.framework in Frameworks */,
+				A548776818AB73E900135177 /* UIKit.framework in Frameworks */,
+				A548776B18AB73E900135177 /* libThinkPageSDK_IOS.a in Frameworks */,
+				A548776618AB73E900135177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39EF318B566F1000E955E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A39F3418B56DE3000E955E /* libThinkPageSDK_IOS.a in Frameworks */,
+				A5A39EF818B566F1000E955E /* CoreGraphics.framework in Frameworks */,
+				A5A39EF918B566F1000E955E /* UIKit.framework in Frameworks */,
+				A5A39EF718B566F1000E955E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39F1218B566F1000E955E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A39F1618B566F1000E955E /* XCTest.framework in Frameworks */,
+				A5A39F1818B566F1000E955E /* UIKit.framework in Frameworks */,
+				A5A39F1718B566F1000E955E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A548774A18AB73E900135177 = {
+			isa = PBXGroup;
+			children = (
+				A548775818AB73E900135177 /* ThinkPageSDK_IOS */,
+				A548776C18AB73E900135177 /* ThinkPageSDK_IOSTests */,
+				A5A39EFA18B566F1000E955E /* ThinkPageTestApp */,
+				A5A39F1B18B566F1000E955E /* ThinkPageTestAppTests */,
+				A548775518AB73E900135177 /* Frameworks */,
+				A548775418AB73E900135177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A548775418AB73E900135177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A548775318AB73E900135177 /* libThinkPageSDK_IOS.a */,
+				A548776318AB73E900135177 /* ThinkPageSDK_IOSTests.xctest */,
+				A5A39EF618B566F1000E955E /* ThinkPageTestApp.app */,
+				A5A39F1518B566F1000E955E /* ThinkPageTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A548775518AB73E900135177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A548775618AB73E900135177 /* Foundation.framework */,
+				A548776418AB73E900135177 /* XCTest.framework */,
+				A548776718AB73E900135177 /* UIKit.framework */,
+				A548779C18AB748000135177 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A548775818AB73E900135177 /* ThinkPageSDK_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				A57B1BB018B599FB002D69CB /* public */,
+				A548777D18AB740C00135177 /* src */,
+				A548777C18AB740600135177 /* inc */,
+				A548775918AB73E900135177 /* Supporting Files */,
+			);
+			path = ThinkPageSDK_IOS;
+			sourceTree = "<group>";
+		};
+		A548775918AB73E900135177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A548775A18AB73E900135177 /* ThinkPageSDK_IOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A548776C18AB73E900135177 /* ThinkPageSDK_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A548777218AB73E900135177 /* ThinkPageSDK_IOSTests.m */,
+				A548776D18AB73E900135177 /* Supporting Files */,
+			);
+			path = ThinkPageSDK_IOSTests;
+			sourceTree = "<group>";
+		};
+		A548776D18AB73E900135177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A548776E18AB73E900135177 /* ThinkPageSDK_IOSTests-Info.plist */,
+				A548776F18AB73E900135177 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A548777C18AB740600135177 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				A548777E18AB744600135177 /* NSDictionary+QueryString.h */,
+				A548778018AB744600135177 /* NSString+URLEncoding.h */,
+				A548778C18AB744700135177 /* TPWeatherRequest.h */,
+			);
+			name = inc;
+			sourceTree = "<group>";
+		};
+		A548777D18AB740C00135177 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A5B5EF9D18BC56EA002514E7 /* TPWeatherSuggestions.m */,
+				A5B5EF9B18BC52F0002514E7 /* TPWeather.m */,
+				A5FED09B18B879FF00E5AD57 /* NSDate+InternetDateTime.h */,
+				A5FED09C18B879FF00E5AD57 /* NSDate+InternetDateTime.m */,
+				A512B0E118B49946000F3675 /* TPWeatherNow.m */,
+				A512B0E418B49960000F3675 /* TPWeatherFuture.m */,
+				A548777F18AB744600135177 /* NSDictionary+QueryString.m */,
+				A548778118AB744600135177 /* NSString+URLEncoding.m */,
+				A548778318AB744600135177 /* TPAirQuality.m */,
+				A548778518AB744600135177 /* TPCity.m */,
+				A548778B18AB744700135177 /* TPWeatherManager.m */,
+				A548778D18AB744700135177 /* TPWeatherRequest.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A57B1BB018B599FB002D69CB /* public */ = {
+			isa = PBXGroup;
+			children = (
+				A5B5EF9A18BC52F0002514E7 /* TPWeather.h */,
+				A57B1BB118B59CDD002D69CB /* TPSDK.h */,
+				A5EC709818ACA8ED002DA09C /* TPWeatherManagerDelegate.h */,
+				A5B5EF9F18BC56EF002514E7 /* TPWeatherSuggestions.h */,
+				A512B0E318B49960000F3675 /* TPWeatherFuture.h */,
+				A512B0E018B49946000F3675 /* TPWeatherNow.h */,
+				A548778218AB744600135177 /* TPAirQuality.h */,
+				A548778418AB744600135177 /* TPCity.h */,
+				A548778A18AB744700135177 /* TPWeatherManager.h */,
+			);
+			name = public;
+			sourceTree = "<group>";
+		};
+		A5A39EFA18B566F1000E955E /* ThinkPageTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				A5A39F2918B5681D000E955E /* img */,
+				A5A39F0318B566F1000E955E /* AppDelegate.h */,
+				A5A39F0418B566F1000E955E /* AppDelegate.m */,
+				A5A39F0618B566F1000E955E /* Main_iPhone.storyboard */,
+				A5A39F0918B566F1000E955E /* Main_iPad.storyboard */,
+				A5A39F0C18B566F1000E955E /* ViewController.h */,
+				A5A39F0D18B566F1000E955E /* ViewController.m */,
+				A5A39F0F18B566F1000E955E /* Images.xcassets */,
+				A5A39EFB18B566F1000E955E /* Supporting Files */,
+			);
+			path = ThinkPageTestApp;
+			sourceTree = "<group>";
+		};
+		A5A39EFB18B566F1000E955E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A39EFC18B566F1000E955E /* ThinkPageTestApp-Info.plist */,
+				A5A39EFD18B566F1000E955E /* InfoPlist.strings */,
+				A5A39F0018B566F1000E955E /* main.m */,
+				A5A39F0218B566F1000E955E /* ThinkPageTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5A39F1B18B566F1000E955E /* ThinkPageTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A39F2118B566F1000E955E /* ThinkPageTestAppTests.m */,
+				A5A39F1C18B566F1000E955E /* Supporting Files */,
+			);
+			path = ThinkPageTestAppTests;
+			sourceTree = "<group>";
+		};
+		A5A39F1C18B566F1000E955E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A39F1D18B566F1000E955E /* ThinkPageTestAppTests-Info.plist */,
+				A5A39F1E18B566F1000E955E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5A39F2918B5681D000E955E /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A5A39F2A18B56834000E955E /* cloudy.png */,
+				A5A39F2B18B56834000E955E /* PartialSunny.png */,
+				A5A39F2C18B56834000E955E /* Rain.png */,
+				A5A39F2D18B56834000E955E /* Storm.png */,
+				A5A39F2E18B56834000E955E /* Sunny.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A548775218AB73E900135177 /* ThinkPageSDK_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A548777618AB73E900135177 /* Build configuration list for PBXNativeTarget "ThinkPageSDK_IOS" */;
+			buildPhases = (
+				A548774F18AB73E900135177 /* Sources */,
+				A548775018AB73E900135177 /* Frameworks */,
+				A548775118AB73E900135177 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkPageSDK_IOS;
+			productName = ThinkPageSDK_IOS;
+			productReference = A548775318AB73E900135177 /* libThinkPageSDK_IOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A548776218AB73E900135177 /* ThinkPageSDK_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A548777918AB73E900135177 /* Build configuration list for PBXNativeTarget "ThinkPageSDK_IOSTests" */;
+			buildPhases = (
+				A548775F18AB73E900135177 /* Sources */,
+				A548776018AB73E900135177 /* Frameworks */,
+				A548776118AB73E900135177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A548776A18AB73E900135177 /* PBXTargetDependency */,
+			);
+			name = ThinkPageSDK_IOSTests;
+			productName = ThinkPageSDK_IOSTests;
+			productReference = A548776318AB73E900135177 /* ThinkPageSDK_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5A39EF518B566F1000E955E /* ThinkPageTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A39F2318B566F2000E955E /* Build configuration list for PBXNativeTarget "ThinkPageTestApp" */;
+			buildPhases = (
+				A5A39EF218B566F1000E955E /* Sources */,
+				A5A39EF318B566F1000E955E /* Frameworks */,
+				A5A39EF418B566F1000E955E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkPageTestApp;
+			productName = ThinkPageTestApp;
+			productReference = A5A39EF618B566F1000E955E /* ThinkPageTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A39F1418B566F1000E955E /* ThinkPageTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A39F2618B566F2000E955E /* Build configuration list for PBXNativeTarget "ThinkPageTestAppTests" */;
+			buildPhases = (
+				A5A39F1118B566F1000E955E /* Sources */,
+				A5A39F1218B566F1000E955E /* Frameworks */,
+				A5A39F1318B566F1000E955E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A39F1A18B566F1000E955E /* PBXTargetDependency */,
+			);
+			name = ThinkPageTestAppTests;
+			productName = ThinkPageTestAppTests;
+			productReference = A5A39F1518B566F1000E955E /* ThinkPageTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A548774B18AB73E900135177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ThinkPage;
+				TargetAttributes = {
+					A548776218AB73E900135177 = {
+						TestTargetID = A5A39EF518B566F1000E955E;
+					};
+					A5A39EF518B566F1000E955E = {
+						DevelopmentTeam = P249M5DRZP;
+					};
+					A5A39F1418B566F1000E955E = {
+						TestTargetID = A5A39EF518B566F1000E955E;
+					};
+				};
+			};
+			buildConfigurationList = A548774E18AB73E900135177 /* Build configuration list for PBXProject "ThinkPageSDK_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A548774A18AB73E900135177;
+			productRefGroup = A548775418AB73E900135177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A548775218AB73E900135177 /* ThinkPageSDK_IOS */,
+				A548776218AB73E900135177 /* ThinkPageSDK_IOSTests */,
+				A5A39EF518B566F1000E955E /* ThinkPageTestApp */,
+				A5A39F1418B566F1000E955E /* ThinkPageTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A548776118AB73E900135177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548777118AB73E900135177 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39EF418B566F1000E955E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A39F0B18B566F1000E955E /* Main_iPad.storyboard in Resources */,
+				A5A39F3218B56834000E955E /* Storm.png in Resources */,
+				A5A39F1018B566F1000E955E /* Images.xcassets in Resources */,
+				A5A39F0818B566F1000E955E /* Main_iPhone.storyboard in Resources */,
+				A5A39F2F18B56834000E955E /* cloudy.png in Resources */,
+				A5A39EFF18B566F1000E955E /* InfoPlist.strings in Resources */,
+				A5A39F3018B56834000E955E /* PartialSunny.png in Resources */,
+				A5A39F3118B56834000E955E /* Rain.png in Resources */,
+				A5A39F3318B56834000E955E /* Sunny.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39F1318B566F1000E955E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A39F2018B566F1000E955E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A548774F18AB73E900135177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548779418AB744700135177 /* TPWeatherManager.m in Sources */,
+				A548779518AB744700135177 /* TPWeatherRequest.m in Sources */,
+				A5B5EF9C18BC52F0002514E7 /* TPWeather.m in Sources */,
+				A512B0E218B49946000F3675 /* TPWeatherNow.m in Sources */,
+				A548779118AB744700135177 /* TPCity.m in Sources */,
+				A512B0E518B49960000F3675 /* TPWeatherFuture.m in Sources */,
+				A548778F18AB744700135177 /* NSString+URLEncoding.m in Sources */,
+				A5FED09D18B879FF00E5AD57 /* NSDate+InternetDateTime.m in Sources */,
+				A548779018AB744700135177 /* TPAirQuality.m in Sources */,
+				A548778E18AB744700135177 /* NSDictionary+QueryString.m in Sources */,
+				A5B5EF9E18BC56EA002514E7 /* TPWeatherSuggestions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A548775F18AB73E900135177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548777318AB73E900135177 /* ThinkPageSDK_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39EF218B566F1000E955E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A39F0E18B566F1000E955E /* ViewController.m in Sources */,
+				A5A39F0518B566F1000E955E /* AppDelegate.m in Sources */,
+				A5A39F0118B566F1000E955E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39F1118B566F1000E955E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A39F2218B566F1000E955E /* ThinkPageTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A548776A18AB73E900135177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A548775218AB73E900135177 /* ThinkPageSDK_IOS */;
+			targetProxy = A548776918AB73E900135177 /* PBXContainerItemProxy */;
+		};
+		A5A39F1A18B566F1000E955E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A39EF518B566F1000E955E /* ThinkPageTestApp */;
+			targetProxy = A5A39F1918B566F1000E955E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A548776F18AB73E900135177 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A548777018AB73E900135177 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A39EFD18B566F1000E955E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A39EFE18B566F1000E955E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A39F0618B566F1000E955E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A39F0718B566F1000E955E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A39F0918B566F1000E955E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A39F0A18B566F1000E955E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A39F1E18B566F1000E955E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A39F1F18B566F1000E955E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A548777418AB73E900135177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A548777518AB73E900135177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A548777718AB73E900135177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shangwei Fang (M4Q4JYQ3CT)";
+				DSTROOT = /tmp/ThinkPageSDK_IOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageSDK_IOS/ThinkPageSDK_IOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A548777818AB73E900135177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shangwei Fang (M4Q4JYQ3CT)";
+				DSTROOT = /tmp/ThinkPageSDK_IOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageSDK_IOS/ThinkPageSDK_IOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A548777A18AB73E900135177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThinkPageTestApp.app/ThinkPageTestApp";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageSDK_IOS/ThinkPageSDK_IOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThinkPageSDK_IOSTests/ThinkPageSDK_IOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A548777B18AB73E900135177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThinkPageTestApp.app/ThinkPageTestApp";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageSDK_IOS/ThinkPageSDK_IOS-Prefix.pch";
+				INFOPLIST_FILE = "ThinkPageSDK_IOSTests/ThinkPageSDK_IOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		A5A39F2418B566F2000E955E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageTestApp/ThinkPageTestApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThinkPageTestApp/ThinkPageTestApp-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5A39F2518B566F2000E955E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageTestApp/ThinkPageTestApp-Prefix.pch";
+				INFOPLIST_FILE = "ThinkPageTestApp/ThinkPageTestApp-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5A39F2718B566F2000E955E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThinkPageTestApp.app/ThinkPageTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageTestApp/ThinkPageTestApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThinkPageTestAppTests/ThinkPageTestAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A5A39F2818B566F2000E955E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThinkPageTestApp.app/ThinkPageTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkPageTestApp/ThinkPageTestApp-Prefix.pch";
+				INFOPLIST_FILE = "ThinkPageTestAppTests/ThinkPageTestAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A548774E18AB73E900135177 /* Build configuration list for PBXProject "ThinkPageSDK_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A548777418AB73E900135177 /* Debug */,
+				A548777518AB73E900135177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A548777618AB73E900135177 /* Build configuration list for PBXNativeTarget "ThinkPageSDK_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A548777718AB73E900135177 /* Debug */,
+				A548777818AB73E900135177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A548777918AB73E900135177 /* Build configuration list for PBXNativeTarget "ThinkPageSDK_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A548777A18AB73E900135177 /* Debug */,
+				A548777B18AB73E900135177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A39F2318B566F2000E955E /* Build configuration list for PBXNativeTarget "ThinkPageTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A39F2418B566F2000E955E /* Debug */,
+				A5A39F2518B566F2000E955E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A39F2618B566F2000E955E /* Build configuration list for PBXNativeTarget "ThinkPageTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A39F2718B566F2000E955E /* Debug */,
+				A5A39F2818B566F2000E955E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A548774B18AB73E900135177 /* Project object */;
+}

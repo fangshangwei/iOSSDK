@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ThinkPageSDK_IOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ThinkPageTestApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A548775218AB73E900135177</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A548776218AB73E900135177</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A548779918AB748000135177</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A54877BC18AB748100135177</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5A39EF518B566F1000E955E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5A39F1418B566F1000E955E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
